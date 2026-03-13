@@ -11,4 +11,4 @@ jobs:
       - name: last stage
         run: echo "thank you all - bye!"
       - name: testing push
-        run: echo "check the code"
+        run: echo "check the job again and again"
