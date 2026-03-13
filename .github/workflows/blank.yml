@@ -1,5 +1,5 @@
 name: First Workflow
-on: workflow_dispatch
+on: push
 jobs:
   first-job:
     runs-on: ubuntu-latest
@@ -10,3 +10,5 @@ jobs:
         run: echo "Done - bye!"
       - name: last stage
         run: echo "thank you all - bye!"
+      - name: testing push
+        run: echo "check the code"
